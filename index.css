@@ -26,12 +26,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 300px;
+  width: 90%;
 }
 
 .prendas > img {
-  width: 140px;
-  padding: 5px;
+  width: 46%;
+  padding: 2%;
 }
 
 /* Footer Part */
