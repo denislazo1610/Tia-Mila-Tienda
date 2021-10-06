@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+  width: 98%;
+  text-align: center;
+}
+
+.logo {
+  width: 170px;
+  border-radius: 50%;
+  border: solid black;
+}
+
+.logoArea {
+  background-color: pink;
+  padding: 3rem;
+}
