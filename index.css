@@ -13,10 +13,14 @@ body {
 
 .logoArea {
   background-color: pink;
-  padding: 3rem;
+  padding: 3rem auto;
 }
 
 /* Catalog Part */
+
+.catalog {
+  margin: 0 auto;
+}
 
 .prendas {
   display: flex;
