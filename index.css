@@ -1,3 +1,4 @@
+/* Top part */
 body {
   margin: 0 auto;
   width: 98%;
@@ -13,4 +14,22 @@ body {
 .logoArea {
   background-color: pink;
   padding: 3rem;
+}
+
+/* Catalog Part */
+
+.prendas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prendas > img {
+  width: 46%;
+  padding: 2%;
+}
+
+/* Footer Part */
+
+.footer {
+  background-color: black;
 }
