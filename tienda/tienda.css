@@ -1,0 +1,15 @@
+.catalog {
+  margin: 0 auto;
+}
+
+.prendas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.prendas > img {
+  width: 46%;
+  padding: 2%;
+}

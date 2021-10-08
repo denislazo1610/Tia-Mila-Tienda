@@ -44,13 +44,19 @@ body {
 
 /* Bar */
 
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
 .invisible {
   display: none;
 }
 
 .bar {
-  /* display: none; */
-
   color: white;
   position: absolute;
   left: 50%;
