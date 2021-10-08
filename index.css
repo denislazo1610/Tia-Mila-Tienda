@@ -45,7 +45,7 @@ body {
 /* Bar */
 
 .invisible {
-  /* display: none; */
+  display: none;
 }
 
 .bar {
