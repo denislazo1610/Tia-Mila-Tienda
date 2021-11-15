@@ -12,8 +12,39 @@ body {
 }
 
 .logoArea {
-  background-color: pink;
+  position: relative;
   padding: 3rem auto;
+}
+
+.logoName {
+  position: absolute;
+  top: 4%;
+  left: 20%;
+  width: 230px;
+}
+
+.logoName > .firstName {
+  font-family: "Playfair Display", serif;
+  text-align: left;
+  width: 100px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+.logoName > .secondName {
+  font-family: "Playfair Display", serif;
+  text-align: right;
+  width: 100px;
+  margin-left: 80px;
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.backgroundTop {
+  width: 100%;
+  opacity: 0.5;
+  height: 180px;
 }
 
 /* Footer Part */
