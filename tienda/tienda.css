@@ -12,10 +12,25 @@ font-family: 'Playfair Display', serif; */
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .prendas > img {
-  width: 46%;
-  padding: 2%;
+  width: 150px;
+  height: 200px;
+  /* margin-left: 6%;
+  margin-right: 6%; */
+}
+
+.prendas > img:nth-child(odd){
+  margin-left: 31px;
+  margin-right: 17px;
+}
+.prendas > img:nth-child(even){
+  margin-left: 17px;
+  margin-right: 31px;
+}
+
+.prendas>img:not(:first-child):not(:nth-child(2)) {
+  margin-top: 24px;
 }

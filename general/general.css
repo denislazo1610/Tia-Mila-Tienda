@@ -75,8 +75,6 @@ a {
   top: 50%;
   transform: translate(-50%, -50%);
 
-  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
-
   text-align: center;
   z-index: 10;
 }
