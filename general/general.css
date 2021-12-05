@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Merriweather:wght@300&family=Playfair+Display&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Autour+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Autour+One&display=swap");
 /* Top part */
 body {
   position: relative;
@@ -79,6 +79,11 @@ a {
 
   text-align: center;
   z-index: 10;
+}
+
+.bar > a {
+  text-decoration: none;
+  color: white;
 }
 
 .overlay {
