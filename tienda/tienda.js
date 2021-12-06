@@ -111,6 +111,16 @@ const clothes = {
 
 const prendas = document.querySelector(".prendas");
 
+const descriptionOuter = document.querySelector(".descriptionOuter");
+const descriptionInside = document.querySelector(".descriptionInside");
+
+const closeButtonDescription = document.querySelector(".btn-close");
+
+closeButtonDescription.addEventListener('click', function(){
+  while(descriptionInside.firstChild) descriptionInside.removeChild(descriptionInside.firstChild);
+  descriptionOuter.classList.add('invisible');
+  })
+
 for (let [name, values] of Object.entries(clothes)) {
   const image = document.createElement("img");
 
@@ -119,5 +129,16 @@ for (let [name, values] of Object.entries(clothes)) {
 
   prendas.appendChild(image);
 
-  console.log(name, values);
+  image.addEventListener('click', function(){
+    console.log("clickinh");
+
+    descriptionOuter.classList.toggle('invisible');
+    image.style.width = '150px';
+    image.style.margin = '0 100px';
+    descriptionInside.appendChild(image);
+
+
+  })
+
+
 }

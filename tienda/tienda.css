@@ -28,12 +28,11 @@
   margin-top: 12px;
 }
 
-.description {
+.descriptionOuter {
   background-color: blue;
   width: 340px;
   height: 500px;
-  position: absolute;
-  position: sticky;
+position: fixed;
 
   left: 28px;
   top: 180px;
