@@ -1,7 +1,7 @@
 const clothes = {
   prenda1: {
     name: "Flor Ombligo",
-    price: "$",
+    price: "3$",
     color: "",
     location: "../galeria/clothes/flor_ombligo.jpeg",
     category: "",
@@ -37,7 +37,7 @@ const clothes = {
   },
   prenda5: {
     name: "Flor Ombligo",
-    price: "$",
+    price: "4$",
     color: "",
     location: "../galeria/clothes/outfit_yellow_bicker.jpeg",
     category: "",

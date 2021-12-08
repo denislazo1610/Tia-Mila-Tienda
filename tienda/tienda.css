@@ -29,7 +29,7 @@
 }
 
 .descriptionOuter {
-  border-radius: 25px;
+  text-align: center;
   background-color: white;
   border: black solid;
   width: 340px;
@@ -38,4 +38,8 @@
 
   left: 28px;
   top: 180px;
+}
+
+.price {
+  font-size: 1.4em;
 }
