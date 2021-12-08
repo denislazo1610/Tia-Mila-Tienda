@@ -15,24 +15,26 @@
   margin-bottom: 12px;
 }
 
-.prendas > img:nth-child(odd){
+.prendas > img:nth-child(odd) {
   margin-left: 31px;
   margin-right: 17px;
 }
-.prendas > img:nth-child(even){
+.prendas > img:nth-child(even) {
   margin-left: 17px;
   margin-right: 31px;
 }
 
-.prendas>img:not(:first-child):not(:nth-child(2)) {
+.prendas > img:not(:first-child):not(:nth-child(2)) {
   margin-top: 12px;
 }
 
 .descriptionOuter {
-  background-color: blue;
+  border-radius: 25px;
+  background-color: white;
+  border: black solid;
   width: 340px;
   height: 500px;
-position: fixed;
+  position: fixed;
 
   left: 28px;
   top: 180px;
