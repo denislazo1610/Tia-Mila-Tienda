@@ -17,10 +17,12 @@ closeButtonDescription.addEventListener("click", function () {
 for (let [name, values] of Object.entries(clothes)) {
   const image = document.createElement("img");
 
-  image.src = values.location;
-  image.alt = values.name;
+  if (values.nuevo) {
+    image.src = values.location;
+    image.alt = values.name;
 
-  prendas.appendChild(image);
+    prendas.appendChild(image);
+  }
 
   image.addEventListener("click", function () {
     descriptionOuter.classList.toggle("invisible");

@@ -14,7 +14,7 @@ const clothes = {
     color: "",
     location: "../galeria/clothes/flor_vestido.jpeg",
     category: "",
-    nuevo: false,
+    nuevo: true,
     discount: 0,
   },
   prenda3: {
@@ -32,7 +32,7 @@ const clothes = {
     color: "",
     location: "../galeria/clothes/ombligo_rayas.jpeg",
     category: "",
-    nuevo: false,
+    nuevo: true,
     discount: 0,
   },
   prenda5: {
@@ -41,7 +41,7 @@ const clothes = {
     color: "",
     location: "../galeria/clothes/outfit_yellow_bicker.jpeg",
     category: "",
-    nuevo: false,
+    nuevo: true,
     discount: 0,
   },
   prenda6: {
