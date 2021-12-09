@@ -1,0 +1,49 @@
+.catalog {
+  margin: 0 auto;
+}
+
+.prendas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  margin-bottom: 12px;
+}
+
+.photo-slide {
+  margin: 0 auto;
+}
+
+.prendas > img:nth-child(odd) {
+  margin-left: 31px;
+  margin-right: 17px;
+}
+.prendas > img:nth-child(even) {
+  margin-left: 17px;
+  margin-right: 31px;
+}
+
+.prendas > img:not(:first-child):not(:nth-child(2)) {
+  margin-top: 12px;
+}
+
+.descriptionOuter {
+  text-align: center;
+  background-color: white;
+  border: black solid;
+  width: 340px;
+  height: 500px;
+  position: fixed;
+
+  left: 28px;
+  top: 180px;
+}
+
+.price {
+  font-size: 1.4em;
+}

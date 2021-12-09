@@ -1,7 +1,6 @@
 import { clothes } from "./../general/tiendaInfo.js";
 
-const prendas = document.querySelector(".prendas");
-
+const carousel = document.querySelector(".carousel-inner");
 const descriptionOuter = document.querySelector(".descriptionOuter");
 const descriptionInside = document.querySelector(".descriptionInside");
 const ejemploPrenda = document.querySelector(".ejemploPrenda");
@@ -15,23 +14,17 @@ closeButtonDescription.addEventListener("click", function () {
 });
 
 for (let [name, values] of Object.entries(clothes)) {
-  const image = document.createElement("img");
-
   if (values.nuevo) {
-    image.src = values.location;
-    image.alt = values.name;
+    const carouselItem = document.createElement("div");
+    carouselItem.classList.add("carousel-item");
+    // carouselItem.classList.add("");
+    const carouselPhoto = document.createElement("img");
+    carouselPhoto.classList.add("d-block");
+    carouselPhoto.classList.add("photo-slide");
+    carouselPhoto.alt = values.name;
+    carouselPhoto.src = values.location;
 
-    prendas.appendChild(image);
+    carouselItem.appendChild(carouselPhoto);
+    carousel.appendChild(carouselItem);
   }
-
-  image.addEventListener("click", function () {
-    descriptionOuter.classList.toggle("invisible");
-    ejemploPrenda.src = values.location;
-    ejemploPrenda.style.width = "160px";
-    ejemploPrenda.style.height = "210px";
-    ejemploPrenda.style.margin = "0 25%";
-
-    ejemploClotheName.innerHTML = values.name;
-    ejemploPrice.innerHTML = values.price;
-  });
 }
