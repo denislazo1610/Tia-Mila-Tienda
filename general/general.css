@@ -20,7 +20,7 @@ body {
 }
 
 .logoName {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   background-color: antiquewhite;
   padding: 1rem 5rem;
   width: 100%;
@@ -54,12 +54,27 @@ body {
 
 .footer {
   background-color: rgb(223, 222, 222);
-  color: black;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.footer > p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.socialMedia > a {
+  margin: 0 auto;
+}
+
+.footerBackground {
   text-align: center;
 }
 
-.socialMedia {
-  margin: 0 auto;
+.instagramLogo {
+  width: 80px;
+  height: 60px;
+  margin: 0 10rem;
 }
 
 /* Bar */
@@ -103,6 +118,11 @@ a {
 }
 
 .option {
-  margin-left: 150px;
-  margin-bottom: 1em;
+  display: block;
+  position: sticky;
+  top: 1rem;
+  margin: 0 163px 1em 163px;
+
+  /* margin-left: 150px;
+  margin-bottom: 1em; */
 }

@@ -46,15 +46,25 @@ img {
 .descriptionOuter {
   text-align: center;
   background-color: white;
-  border: black solid;
-  width: 340px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   position: fixed;
 
-  left: 28px;
-  top: 180px;
+  left: 0px;
+  top: 0px;
 }
 
 .price {
   font-size: 1.4em;
+}
+
+.subTitle,
+.subsubTitle,
+p {
+  text-align: center;
+}
+
+.discountSection {
+  margin: 0;
+  background-color: rgb(236, 228, 217);
 }
