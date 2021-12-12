@@ -20,10 +20,10 @@ body {
 }
 
 .logoName {
-  position: absolute;
-  top: 20%;
-  left: 20%;
-  width: 230px;
+  margin-top: 1rem;
+  background-color: antiquewhite;
+  padding: 1rem 5rem;
+  width: 100%;
 }
 
 .logoName > .firstName {
@@ -46,7 +46,7 @@ body {
 
 .backgroundTop {
   width: 100%;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   height: 180px;
 }
 
@@ -56,6 +56,10 @@ body {
   background-color: rgb(223, 222, 222);
   color: black;
   text-align: center;
+}
+
+.socialMedia {
+  margin: 0 auto;
 }
 
 /* Bar */
@@ -100,4 +104,5 @@ a {
 
 .option {
   margin-left: 150px;
+  margin-bottom: 1em;
 }
