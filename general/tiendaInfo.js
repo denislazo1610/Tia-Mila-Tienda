@@ -6,7 +6,7 @@ const clothes = {
     location: "../galeria/clothes/flor_ombligo.jpeg",
     category: "",
     nuevo: false,
-    discount: 0,
+    discount: 30,
   },
   prenda2: {
     name: "Flor Ombligo",
@@ -24,7 +24,7 @@ const clothes = {
     location: "../galeria/clothes/jogger_rojo.jpeg",
     category: "",
     nuevo: false,
-    discount: 0,
+    discount: 20,
   },
   prenda4: {
     name: "Flor Ombligo",
@@ -42,7 +42,7 @@ const clothes = {
     location: "../galeria/clothes/outfit_yellow_bicker.jpeg",
     category: "",
     nuevo: true,
-    discount: 0,
+    discount: 50,
   },
   prenda6: {
     name: "Flor Ombligo",

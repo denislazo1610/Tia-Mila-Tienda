@@ -28,3 +28,28 @@ for (let [name, values] of Object.entries(clothes)) {
     carousel.appendChild(carouselItem);
   }
 }
+carousel.children[0].classList.add("active");
+
+const clothesDiscounts = document.querySelector(".prendasDiscounts");
+
+for (let [name, values] of Object.entries(clothes)) {
+  if (values.discount) {
+    const image = document.createElement("img");
+
+    image.src = values.location;
+    image.alt = values.name;
+
+    clothesDiscounts.appendChild(image);
+
+    image.addEventListener("click", function () {
+      descriptionOuter.classList.toggle("invisible");
+      ejemploPrenda.src = values.location;
+      ejemploPrenda.style.width = "160px";
+      ejemploPrenda.style.height = "210px";
+      ejemploPrenda.style.margin = "0 25%";
+
+      ejemploClotheName.innerHTML = values.name;
+      ejemploPrice.innerHTML = values.price;
+    });
+  }
+}

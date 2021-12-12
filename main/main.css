@@ -2,11 +2,22 @@
   margin: 0 auto;
 }
 
-.prendas {
+.prendasDiscounts {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   width: 100%;
+}
+
+.prendasDiscounts > img {
+  width: 150px;
+  height: 200px;
+  margin: 0 auto;
+  /* margin-bottom: 12px; */
+}
+
+.prendasDiscounts > img:not(:first-child):not(:nth-child(2)) {
+  margin-top: 12px;
 }
 
 img {
