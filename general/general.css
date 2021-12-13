@@ -79,7 +79,7 @@ body {
 
 /* Bar */
 
-a {
+.bar > a {
   display: block;
   text-decoration: none;
   color: white;
@@ -117,10 +117,9 @@ a {
   z-index: 5;
 }
 
-.option {
-  display: block;
-  top: 1rem;
-  margin: 0 163px 1em 163px;
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
 
 .btnToclose {

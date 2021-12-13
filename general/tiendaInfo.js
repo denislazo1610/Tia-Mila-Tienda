@@ -2,7 +2,7 @@ const clothes = {
   prenda1: {
     name: "Flor Ombligo",
     code: "prenda1",
-    price: "3$",
+    price: "3",
     color: "",
     location: "../galeria/clothes/flor_ombligo.jpeg",
     category: "",
@@ -12,7 +12,7 @@ const clothes = {
   prenda2: {
     name: "Flor Ombligo",
     code: "prenda2",
-    price: "$",
+    price: "2",
     color: "",
     location: "../galeria/clothes/flor_vestido.jpeg",
     category: "",
@@ -22,7 +22,7 @@ const clothes = {
   prenda3: {
     name: "Flor Ombligo",
     code: "prenda3",
-    price: "$",
+    price: "2",
     color: "",
     location: "../galeria/clothes/jogger_rojo.jpeg",
     category: "",
@@ -32,7 +32,7 @@ const clothes = {
   prenda4: {
     name: "Flor Ombligo",
     code: "prenda4",
-    price: "$",
+    price: "2",
     color: "",
     location: "../galeria/clothes/ombligo_rayas.jpeg",
     category: "",
@@ -42,7 +42,7 @@ const clothes = {
   prenda5: {
     name: "Flor Ombligo",
     code: "prenda5",
-    price: "4$",
+    price: "4",
     color: "",
     location: "../galeria/clothes/outfit_yellow_bicker.jpeg",
     category: "",
@@ -52,7 +52,7 @@ const clothes = {
   prenda6: {
     name: "Flor Ombligo",
     code: "prenda6",
-    price: "$",
+    price: "6",
     color: "",
     location: "../galeria/clothes/prenda_azul.jpeg",
     category: "",
@@ -62,7 +62,7 @@ const clothes = {
   prenda7: {
     name: "Flor Ombligo",
     code: "prenda7",
-    price: "$",
+    price: "6",
     color: "",
     location: "../galeria/clothes/prenda_roja.jpeg",
     category: "",
@@ -72,7 +72,7 @@ const clothes = {
   prenda8: {
     name: "Flor Ombligo",
     code: "prenda8",
-    price: "$",
+    price: "6",
     color: "",
     location: "../galeria/clothes/prenda_rosada_con_flores.jpeg",
     category: "",
@@ -92,7 +92,7 @@ const clothes = {
   prenda10: {
     name: "Flor Ombligo",
     code: "prenda10",
-    price: "$",
+    price: "6",
     color: "",
     location: "../galeria/clothes/Rojo_un_brazo.jpeg",
     category: "",
@@ -102,7 +102,7 @@ const clothes = {
   prenda11: {
     name: "Flor Ombligo",
     code: "prenda11",
-    price: "$",
+    price: "8",
     color: "",
     location: "../galeria/clothes/rosado_fuerte_ombligo.jpeg",
     category: "",
@@ -112,7 +112,7 @@ const clothes = {
   prenda12: {
     name: "Flor Ombligo",
     code: "prenda12",
-    price: "$",
+    price: "8",
     color: "",
     location: "../galeria/clothes/rosado_princesa.jpeg",
     category: "",

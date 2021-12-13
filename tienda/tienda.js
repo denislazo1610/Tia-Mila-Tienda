@@ -9,11 +9,11 @@ const ejemploPrice = document.querySelector(".price");
 const ejemploClotheName = document.querySelector(".clotheName");
 const codigoClothe = document.querySelector(".codigo");
 
-const closeButtonDescription = document.querySelector(".btnToclose");
+// const closeButtonDescription = document.querySelector(".btnToclose");
 
-closeButtonDescription.addEventListener("click", function () {
-  descriptionOuter.classList.toggle("invisible");
-});
+// closeButtonDescription.addEventListener("click", function () {
+//   descriptionOuter.classList.toggle("invisible");
+// });
 
 for (let [name, values] of Object.entries(clothes)) {
   const image = document.createElement("img");
