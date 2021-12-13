@@ -119,10 +119,18 @@ a {
 
 .option {
   display: block;
-  position: sticky;
   top: 1rem;
   margin: 0 163px 1em 163px;
-
-  /* margin-left: 150px;
-  margin-bottom: 1em; */
 }
+
+.btnToclose {
+  margin-left: 73%;
+  margin: 0.5rem 0.3rem auto 73%;
+
+  border: black solid;
+  border-radius: 1rem;
+}
+/* 
+#quantity {
+  border-radius: 1rem;
+} */

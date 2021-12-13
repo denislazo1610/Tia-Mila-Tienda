@@ -11,7 +11,6 @@
 
   </head>
   <body>
-    <!-- <button class="option">Options</button> -->
     
     <section class="top">
       <div class="logoArea">
@@ -85,16 +84,17 @@
     <br />
     <section class="catalog">
       <div class="descriptionOuter invisible">
-        <button type="button" class="btn btnToclose" aria-label="Close"> Back to Shop</button>
+        <p class="btnToclose">Back to Shop</p>
         <div class="descriptionInside">
           <img src="" alt="ejemplo" class="ejemploPrenda">
           <p class="clotheName">Clothe's name:</p>
+          <p>Code: <span class="codigo"></span></p>
           <p class="price">Price:</p>
-          <p>Quantity:</p>
-          <input type="number">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" name="quantity" min="0" max="5">
           <br>
           <br>
-          <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Add to Cart</a>
+          <a href="#" class="btn btn-primary btn-lg" role="button" aria-pressed="true">Add to Cart</a>
 
         </div>
       </div>

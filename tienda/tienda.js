@@ -7,6 +7,7 @@ const descriptionInside = document.querySelector(".descriptionInside");
 const ejemploPrenda = document.querySelector(".ejemploPrenda");
 const ejemploPrice = document.querySelector(".price");
 const ejemploClotheName = document.querySelector(".clotheName");
+const codigoClothe = document.querySelector(".codigo");
 
 const closeButtonDescription = document.querySelector(".btnToclose");
 
@@ -23,6 +24,7 @@ for (let [name, values] of Object.entries(clothes)) {
   prendas.appendChild(image);
 
   image.addEventListener("click", function () {
+    codigoClothe.textContent = values.code;
     descriptionOuter.classList.toggle("invisible");
     ejemploPrenda.src = values.location;
     ejemploPrenda.style.width = "160px";
