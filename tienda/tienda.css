@@ -42,3 +42,45 @@
 .price {
   font-size: 1.4em;
 }
+
+@media (min-width: 600px) {
+  .prendas {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    /* row-gap: 10px; */
+    /* column-gap: 20px; */
+    margin: 0 auto;
+  }
+
+  .prendas > img {
+    width: 150px;
+    height: 200px;
+    margin-bottom: 3rem;
+  }
+
+  .prendas > img:nth-child(odd) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .prendas > img:nth-child(even) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .prendas > img:not(:first-child):not(:nth-child(2)) {
+    margin-top: auto;
+  }
+
+  .descriptionOuter {
+    text-align: center;
+    background-color: white;
+    border-radius: 1rem;
+    width: 500px;
+    height: 700px;
+    position: fixed;
+    border: solid black;
+
+    left: 500px;
+    top: 10px;
+  }
+}
