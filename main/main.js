@@ -25,8 +25,6 @@ for (let [name, values] of Object.entries(clothes)) {
     carouselPhoto.alt = values.name;
     carouselPhoto.src = values.location;
 
-    console.log(values.code);
-
     carouselPhoto.addEventListener("click", function () {
       descriptionOuter.classList.toggle("invisible");
       ejemploPrenda.src = values.location;
@@ -36,7 +34,7 @@ for (let [name, values] of Object.entries(clothes)) {
       ejemploPrenda.style.height = "250px";
       ejemploPrenda.style.margin = "0 25%";
       ejemploClotheName.innerHTML = values.name;
-      ejemploPrice.innerHTML = values.price;
+      ejemploPrice.innerHTML = values.price + "$";
     });
 
     carouselItem.appendChild(carouselPhoto);
@@ -65,7 +63,7 @@ for (let [name, values] of Object.entries(clothes)) {
       ejemploPrenda.style.margin = "0 25%";
 
       ejemploClotheName.innerHTML = values.name;
-      ejemploPrice.innerHTML = values.price;
+      ejemploPrice.innerHTML = values.price + "$";
     });
   }
 }

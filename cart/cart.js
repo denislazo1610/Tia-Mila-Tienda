@@ -6,7 +6,7 @@ if (!localStorage.length) {
   const vacio = document.createElement("h2");
   vacio.innerHTML = "No items in the cart";
   vacio.style.textAlign = "center";
-  vacio.style.height = "300px";
+  vacio.style.height = "400px";
   itemsCart.appendChild(vacio);
 } else {
   checkingLocalstorage();

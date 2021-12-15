@@ -9,12 +9,6 @@ const ejemploPrice = document.querySelector(".price");
 const ejemploClotheName = document.querySelector(".clotheName");
 const codigoClothe = document.querySelector(".codigo");
 
-// const closeButtonDescription = document.querySelector(".btnToclose");
-
-// closeButtonDescription.addEventListener("click", function () {
-//   descriptionOuter.classList.toggle("invisible");
-// });
-
 for (let [name, values] of Object.entries(clothes)) {
   const image = document.createElement("img");
 
@@ -27,11 +21,21 @@ for (let [name, values] of Object.entries(clothes)) {
     codigoClothe.textContent = values.code;
     descriptionOuter.classList.toggle("invisible");
     ejemploPrenda.src = values.location;
-    ejemploPrenda.style.width = "160px";
-    ejemploPrenda.style.height = "210px";
+
+    if (window.innerWidth >= 600) {
+      ejemploPrenda.style.width = "200px";
+      ejemploPrenda.style.height = "220px";
+      console.log("This is working");
+    } else {
+      ejemploPrenda.style.width = "160px";
+      ejemploPrenda.style.height = "210px";
+      console.log("Else");
+    }
+
     ejemploPrenda.style.margin = "0 25%";
 
     ejemploClotheName.innerHTML = values.name;
-    ejemploPrice.innerHTML = values.price;
+    ejemploPrice.innerHTML = values.price + "$";
   });
 }
+console.log(window.innerWidth);

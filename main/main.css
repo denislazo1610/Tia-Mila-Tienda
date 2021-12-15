@@ -66,8 +66,24 @@ img {
 p {
   text-align: center;
 }
+.definition {
+  background-color: brown;
+  color: white;
+  padding-bottom: 1rem;
+}
 
 .discountSection {
   margin: 0;
   background-color: rgb(236, 228, 217);
+}
+
+@media (min-width: 600px) {
+  p {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .definition {
+    margin: auto 5%;
+  }
 }

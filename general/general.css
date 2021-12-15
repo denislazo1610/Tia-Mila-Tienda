@@ -129,7 +129,47 @@ body {
   border: black solid;
   border-radius: 1rem;
 }
-/* 
-#quantity {
-  border-radius: 1rem;
-} */
+
+@media (min-width: 600px) {
+  body {
+    background-color: blue;
+  }
+
+  .bar {
+    margin: 0 auto;
+    padding: 0 550px;
+  }
+  .logoName {
+    width: 70%;
+    padding-left: 26%;
+    margin: 0 auto;
+  }
+  .buttons {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .main {
+    width: 70%;
+    margin: 0 auto;
+    border: solid black;
+    background-color: white;
+  }
+
+  .backgroundTop {
+    width: 650px;
+    height: 150px;
+    margin: 0 20%;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .socialMedia {
+    width: 70%;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
