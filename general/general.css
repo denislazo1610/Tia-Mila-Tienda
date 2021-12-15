@@ -122,13 +122,12 @@ body {
   justify-content: space-between;
 }
 
-.btnToclose {
-  margin-left: 73%;
-  margin: 0.5rem 0.3rem auto 73%;
+/* .btnToclose {
+  margin: 0.5rem 0.3rem 1rem auto;
 
   border: black solid;
   border-radius: 1rem;
-}
+} */
 
 @media (min-width: 600px) {
   .bar {
