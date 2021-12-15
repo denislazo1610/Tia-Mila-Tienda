@@ -22,17 +22,10 @@ for (let [name, values] of Object.entries(clothes)) {
     descriptionOuter.classList.toggle("invisible");
     ejemploPrenda.src = values.location;
 
-    if (window.innerWidth >= 600) {
-      ejemploPrenda.style.width = "200px";
-      ejemploPrenda.style.height = "220px";
-      console.log("This is working");
-    } else {
-      ejemploPrenda.style.width = "160px";
-      ejemploPrenda.style.height = "210px";
-      console.log("Else");
-    }
+    ejemploPrenda.style.width = "210px";
+    ejemploPrenda.style.height = "300px";
 
-    ejemploPrenda.style.margin = "0 25%";
+    ejemploPrenda.style.margin = "1rem 20%";
 
     ejemploClotheName.innerHTML = values.name;
     ejemploPrice.innerHTML = values.price + "$";

@@ -58,8 +58,8 @@ for (let [name, values] of Object.entries(clothes)) {
       codigoClothe.textContent = values.code;
       descriptionOuter.classList.toggle("invisible");
       ejemploPrenda.src = values.location;
-      ejemploPrenda.style.width = "160px";
-      ejemploPrenda.style.height = "210px";
+      ejemploPrenda.style.width = "210px";
+      ejemploPrenda.style.height = "300px";
       ejemploPrenda.style.margin = "0 25%";
 
       ejemploClotheName.innerHTML = values.name;
