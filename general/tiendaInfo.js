@@ -44,7 +44,7 @@ const clothes = {
     code: "prenda5",
     price: "9",
     color: "",
-    location: "../galeria/clothes/Colorful_Sweater.jpg",
+    location: "../galeria/clothes/ColorFul_Sweater.jpg",
     category: "",
     nuevo: true,
     discount: 50,
